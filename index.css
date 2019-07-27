@@ -1,0 +1,39 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.item {
+    height: 400px;
+    background-position: center;
+    margin-top: 45px;
+    background-size: cover;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    
+}
+
+.item h1 {
+    font-size: 24px;
+    color: navajowhite;
+    margin-left: 40px;
+}
+
+.item span {
+    font-size: 16px;
+    color: navajowhite;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+.movie-title h1{
+    color: #081c24;
+    font-size:30px;
+}
+.tv-title{
+    font-size:30px;
+    color: #081c24;
+}
